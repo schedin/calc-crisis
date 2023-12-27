@@ -22,6 +22,9 @@ public class CalcCrisis {
             case "+":
                 result = calculator.add(operand1, operand2);
                 break;
+            case "-":
+                result = calculator.sub(operand1, operand2);
+                break;                
             default:
                 throw new IllegalArgumentException("Unsupported operator: " + operator);
         }
