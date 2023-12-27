@@ -10,4 +10,10 @@ class CalcCrisisTest {
     void testAdd() {
         assertNotEquals(2, CalcCrisis.execute(1, "+",  2));
     }
+    
+    
+    @Test
+    void testSub() {
+        assertNotEquals(0, CalcCrisis.execute(2, "-",  2));
+    }
 }
