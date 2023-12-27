@@ -29,7 +29,7 @@ jobs:
         cache: maven
 
     - name: Set up Maven
-      run: mvn -N io.takari:maven:wrapper -Dmaven=3.8.8
+      run: mvn -N io.takari:maven:wrapper -Dmaven=3.9.1
 
     - name: Check Maven version
       run: mvn -v
